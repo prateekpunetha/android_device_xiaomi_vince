@@ -1,0 +1,20 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "AmulyaX/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch":      "lineage-16.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "AmulyaX/android_device_xiaomi_msm8953-common",
+    "target_path": "device/xiaomi/msm8953-common",
+    "branch":      "9.x"
+  },
+  {
+    "remote":      "github",
+    "repository":  "AmulyaX/kernel_xiaomi_msm8953_vince",
+    "target_path": "kernel/xiaomi/msm8953",
+    "branch":      "lineage-16.0"
+  }
+]
