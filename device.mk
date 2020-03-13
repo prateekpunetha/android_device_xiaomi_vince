@@ -23,7 +23,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/vince \
-    device/xiaomi/msm8953-common
+    device/xiaomi/msm8953-common \
+    hardware/qcom/audio \
+    hardware/qcom/media \
+    hardware/qcom/display
 
 # Inherit from msm8953-common
 $(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
