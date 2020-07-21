@@ -22,5 +22,5 @@
 <resources>
 
     <!-- Rounded display corners-->
-    <dimen name="rounded_corner_radius">22dp</dimen>
+    <dimen name="rounded_corner_radius">20dp</dimen>
 </resources>
